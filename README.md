@@ -1,4 +1,4 @@
-# Nama Proyek
+# ms-iqbal-ravi-betest
 
 Jenius Technical Test Back End Developer.
 
@@ -39,7 +39,7 @@ Deskripsikan cara menggunakan API atau aplikasi Anda. Contohnya:
 1. **Endpoint Get Data:**
 
     - **URL:** `/auth/generate-data`
-    - **Metode:** PORT
+    - **Metode:** POST
     - **Deskripsi:** Generate JWT Token.
     - 
 ## Pengujian dengan Postman
