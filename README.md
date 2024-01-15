@@ -8,56 +8,40 @@ Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/), [MongoDB](https:/
 
 1. Clone repository:
 
-    ```bash
-    git clone https://github.com/bro-iqbal/ms-iqbal-ravi-betest
-    ```
+   ```bash
+   git clone https://github.com/bro-iqbal/ms-iqbal-ravi-betest
+   ```
 
 2. Masuk ke direktori proyek:
 
-    ```bash
-    cd ms-iqbal-ravi-betest
-    ```
+   ```bash
+   cd ms-iqbal-ravi-betest
+   ```
 
 3. Install dependency:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 4. Jalankan aplikasi:
 
-    ```bash
-    node --watch index.js
-    ```
+   ```bash
+   node --watch index.js
+   ```
 
-    Aplikasi akan berjalan di http://localhost:3000 secara default.
+   Aplikasi akan berjalan di http://localhost:3000 secara default.
 
 ## Menjalankan dengan Docker
 
-1. Build docker image:
+1. Jalankan docker compose pada terminal:
 
-    ```bash
-    docker build -t ms-iqbal-ravi-betest .
-    ```
+   ```bash
+   docker-compose up --build
+   ```
 
-2. Jalankan container:
+   Aplikasi akan berjalan di http://localhost:3000.
 
-    ```bash
-    docker run -p 3000:3000 -d ms-iqbal-ravi-betest
-    ```
-
-    Aplikasi akan berjalan di http://localhost:3000.
-
-## Penggunaan
-
-Deskripsikan cara menggunakan API atau aplikasi Anda. Contohnya:
-
-1. **Endpoint Get Data:**
-
-    - **URL:** `/auth/generate-data`
-    - **Metode:** POST
-    - **Deskripsi:** Generate JWT Token.
-    - 
 ## Pengujian dengan Postman
 
 1. Impor koleksi Postman yang disediakan di [postman](https://documenter.getpostman.com/view/1585979/2s9YsNeqdt).
