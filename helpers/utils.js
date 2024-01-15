@@ -4,9 +4,7 @@ const { promisify } = require("util");
 const config = require("../db/config");
 
 const client = redis.createClient({
-  host: config.redis.host,
-  port: config.redis.port,
-  database: config.redis.db,
+  url: config.redisUrl,
 });
 
 client.on("connect", () => {

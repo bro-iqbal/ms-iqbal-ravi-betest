@@ -1,9 +1,10 @@
 module.exports = {
-  url: "mongodb://localhost:27017/db-iqbal-ravi-betest",
-  redis: {
-    host: "127.0.0.1",
-    port: 6379,
-    password: "",
-    db: 0,
-  },
+  url: process.env.MONGO_URL,
+  redisUrl: process.env.REDIS_URL,
+  // redis: {
+  //   host: process.env.REDIS_HOST,
+  //   port: 6379,
+  //   password: "",
+  //   db: 0,
+  // },
 };
