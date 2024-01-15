@@ -6,7 +6,7 @@ Jenius Technical Test Back End Developer.
 
 Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/), [MongoDB](https://www.mongodb.com/try/download/community), dan [Redis](https://redis.io/download) di sistem Anda sebelum melanjutkan.
 
-1. Clone repositori:
+1. Clone repository:
 
     ```bash
     git clone https://github.com/bro-iqbal/ms-iqbal-ravi-betest
@@ -18,7 +18,7 @@ Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/), [MongoDB](https:/
     cd ms-iqbal-ravi-betest
     ```
 
-3. Install dependensi:
+3. Install dependency:
 
     ```bash
     npm install
@@ -31,6 +31,22 @@ Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/), [MongoDB](https:/
     ```
 
     Aplikasi akan berjalan di http://localhost:3000 secara default.
+
+## Menjalankan dengan Docker
+
+1. Build docker image:
+
+    ```bash
+    docker build -t ms-iqbal-ravi-betest .
+    ```
+
+2. Jalankan container:
+
+    ```bash
+    docker run -p 3000:3000 -d ms-iqbal-ravi-betest
+    ```
+
+    Aplikasi akan berjalan di http://localhost:3000.
 
 ## Penggunaan
 
